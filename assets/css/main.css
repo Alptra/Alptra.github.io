@@ -202,9 +202,7 @@ input, select, textarea {
 	}
 
 /* Container */
-.lowercase{
-text-transform: lowercase;
-}
+
 	.container {
 		margin: 0 auto;
 		max-width: 100%;
