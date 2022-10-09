@@ -51,6 +51,18 @@ table {
 	border-spacing: 0;
 }
 
+.containers{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 10px;
+        color: #000;
+        font-size: 1rem;
+        border: 5px solid red;
+        height: 300px;
+    }
+
 body {
 	-webkit-text-size-adjust: none;
 }
