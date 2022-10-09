@@ -53,9 +53,9 @@ table {
 
 #containerModif{
 	display:flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: space-around;
-	flex-direction: column;
 }
 
 body {
