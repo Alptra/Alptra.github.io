@@ -204,6 +204,11 @@ input, select, textarea {
 	}
 
 /* Container */
+	.container
+	{
+	position: relative;
+	}
+
 	.container iframe
 	{
 	position: absolute;
