@@ -204,7 +204,7 @@ input, select, textarea {
 	}
 
 /* Container */
-	.container {
+	.conteneur {
   		position: relative;
   		overflow: hidden;
   		width: 100%;
