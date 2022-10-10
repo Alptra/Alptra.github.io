@@ -204,12 +204,12 @@ input, select, textarea {
 	}
 
 /* Container */
-	.conteneur
+	.container
 	{
 	position: relative;
 	}
 
-	.conteneur iframe
+	.container iframe
 	{
 	position: absolute;
 	top: 0;
