@@ -1502,7 +1502,7 @@ input, select, textarea {
 		-ms-transition: opacity 0.25s ease-in-out;
 		transition: opacity 0.25s ease-in-out;
 		display: inline-block;
-		border-radius: 50%;
+		border-radius: 5%;
 	}
 
 		.image:hover {
