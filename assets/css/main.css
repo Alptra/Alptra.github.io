@@ -1497,12 +1497,7 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		-moz-transition: opacity 0.25s ease-in-out;
-		-webkit-transition: opacity 0.25s ease-in-out;
-		-ms-transition: opacity 0.25s ease-in-out;
-		transition: opacity 0.25s ease-in-out;
-		display: inline-block;
-		border: solid 6px #ebebeb !important;
+		border-radius: 5px
 	}
 
 		.image:hover {
