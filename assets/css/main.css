@@ -1495,9 +1495,16 @@ input, select, textarea {
 	}
 
 /* Image */
-
+img {
+  border-radius: 5px;
+}
 	.image {
-		border-radius: 5px;
+		-moz-transition: opacity 0.25s ease-in-out;
+		-webkit-transition: opacity 0.25s ease-in-out;
+		-ms-transition: opacity 0.25s ease-in-out;
+		transition: opacity 0.25s ease-in-out;
+		display: inline-block;
+		border: solid 6px #ebebeb !important;
 	}
 
 		.image:hover {
