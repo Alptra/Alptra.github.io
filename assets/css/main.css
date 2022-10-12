@@ -1495,9 +1495,7 @@ input, select, textarea {
 	}
 
 /* Image */
-img {
-  border-radius: 5px;
-}
+
 	.image {
 		-moz-transition: opacity 0.25s ease-in-out;
 		-webkit-transition: opacity 0.25s ease-in-out;
