@@ -221,13 +221,13 @@ input, select, textarea {
 	}
 
 	.typing-demo {
-  		width: 27ch;
-  		animation: typing 2s steps(27), blink .5s step-end infinite alternate;
+  		width: 28ch;
+  		animation: typing 2s steps(28), blink .5s step-end infinite alternate;
   		white-space: nowrap;
   		overflow: hidden;
   		border-right: 3px solid;
   		font-family: monospace;
-  		font-size: 2em;
+  		font-size: 1em;
 	}
 
 	@keyframes typing {
