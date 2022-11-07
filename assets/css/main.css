@@ -213,6 +213,11 @@ input, select, textarea {
 	}
 
 /* Container */
+	.typewriter.no-caret::before {
+  		border-left-width: 0;
+	}
+
+
 	.conteneur {
   		position: relative;
   		overflow: hidden;
