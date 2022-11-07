@@ -281,7 +281,7 @@ input, select, textarea {
   			animation: 
     			typing 1s steps(20, end) forwards,
       			blink .8s infinite;
-  			font-size: 1.6rem;
+  			font-size: 1rem;
   			width: 0;
 		}
 		@keyframes typing {
