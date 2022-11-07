@@ -212,10 +212,12 @@ input, select, textarea {
 		clear: both;
 	}
 
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+/* Container */
+	@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 body{
-  padding: 40px;  
+  padding: 40px;
+  background-color: #4268a5;  
 }
 
 p {
@@ -223,7 +225,7 @@ p {
   overflow: hidden;    
   font-family: 'Source Code Pro', monospace;  
   font-size: 28px;
-  color: black(255,255,255,.70);
+  color: rgba(255,255,255,.70);
 }
 
 /* Animation */
@@ -237,8 +239,6 @@ p {
   from{width: 0;}
   to{width: 472px;}
 }
-
-/* Container */
 	.conteneur {
   		position: relative;
   		overflow: hidden;
