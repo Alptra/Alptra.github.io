@@ -213,29 +213,6 @@ input, select, textarea {
 	}
 
 /* Container */
-	.wrapper {
-  		height: 4vh;
-  		/*This part is important for centering*/
-  		display: grid;
-  		place-items: center;
-	}
-
-	.typing-demo {
-  		width: 34ch;
-  		animation: typing 2s steps(34), blink .5s
-	}
-
-	@keyframes typing {
-  		from {
-    			width: 0
-  		}
-	}
-    
-	@keyframes blink {
-  		50% {
-    			border-color: transparent
-  		}
-	}
 	.conteneur {
   		position: relative;
   		overflow: hidden;
