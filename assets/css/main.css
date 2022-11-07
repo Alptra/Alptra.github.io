@@ -212,28 +212,8 @@ input, select, textarea {
 		clear: both;
 	}
 
-/* Container */
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
-
-	.wrapper {
-  height: 100vh;
-  /*This part is important for centering*/
-  display: grid;
-  place-items: center;
-}
-
-.typing-demo {
-  width: 34ch;
-  animation: typing 2s steps(34), blink .5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid;
-  font-family: 'Source Code Pro', monospace;
-  font-size: 28px;
-}
-
 /* Animation */
-p{
+p {
   animation: animated-text 2s steps(30,end) 1s 1 normal both;
 }
 
@@ -243,6 +223,8 @@ p{
   from{width: 0;}
   to{width: 472px;}
 }
+
+/* Container */
 	.conteneur {
   		position: relative;
   		overflow: hidden;
