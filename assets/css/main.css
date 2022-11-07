@@ -213,6 +213,26 @@ input, select, textarea {
 	}
 
 /* Container */
+	@keyframes grow {
+  0% { max-height: var(--lineHeight); }
+  100% { max-height: calc(var(--lineHeight) * var(--lines)); }
+}
+
+@keyframes carriageReturn {
+  0% { top: 0; }
+  100% { top: calc(var(--lineHeight) * var(--lines)); }
+}
+
+@keyframes type {
+  0% { width: 100%; }
+  100% { width: 0%; }
+}
+
+@keyframes caret {
+  0% { color: var(--bgColor); }
+  100% { color: black; }
+}
+
 	.typewriter.no-caret::before {
   		border-left-width: 0;
 	}
