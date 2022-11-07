@@ -214,7 +214,7 @@ input, select, textarea {
 
 /* Container */
 	.wrapper {
-  		height: 8vh;
+  		height: 2vh;
   		/*This part is important for centering*/
   		display: grid;
   		place-items: center;
