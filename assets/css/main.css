@@ -37,11 +37,6 @@ body {
     user-select: none;            /* Non-prefixed version,
                                 currently supported by Chrome and Opera */
 }
-.reveal-loaded .reveal [class*="reveal-"] {
-  opacity: 0!important;
-  animation: none!important;
-  transition: 0s!important;
-}
 	
 body {
 	line-height: 1;
