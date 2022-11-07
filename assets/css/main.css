@@ -214,15 +214,15 @@ input, select, textarea {
 
 /* Container */
 	.wrapper {
-  		height: 6vh;
+  		height: 100vh;
   		/*This part is important for centering*/
   		display: grid;
   		place-items: center;
 	}
 
 	.typing-demo {
-  		width: 30ch;
-  		animation: typing 2s steps(30), blink .5s step-end infinite alternate;
+  		width: 40ch;
+  		animation: typing 2s steps(40), blink .5s step-end infinite alternate;
   		white-space: nowrap;
   		overflow: hidden;
   		border-right: 3px solid;
