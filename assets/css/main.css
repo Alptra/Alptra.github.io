@@ -278,7 +278,8 @@ input, select, textarea {
   border-right: .15em solid orange;
   white-space: nowrap;
   animation: 
-    typing 0.4s steps(8, end);
+    typing 1s steps(20, end) forwards,
+      blink .8s infinite;
   font-size: 1.6rem;
   width: 0;
 }
