@@ -42,29 +42,6 @@ body {
   animation: none!important;
   transition: 0s!important;
 }
-
-body {
-	h1.splitting {
-  .char {
-    transition: transform .3s cubic-bezier(.3, 0, .3, 1), opacity .3s linear;
-    transition-delay: calc( 20ms * var(--char-index) );
-
-  }
-
-  &[data-scroll="out"] .char {
-    opacity: 0.1;
-    transform: translateY( .25em );
-  }
-}
-
-/* ---------------------------------- */
-
-
-.page {
-  max-width: 30em;
-  margin: auto;
-  overflow: hidden;
-}
 	
 body {
 	line-height: 1;
