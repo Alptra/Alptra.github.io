@@ -277,7 +277,6 @@ input, select, textarea {
 		}
 		.typed-out{
   			overflow: hidden;
-  			border-right: .15em solid black;
   			white-space: nowrap;
   			animation: 
     			typing 1s steps(20, end) forwards,
