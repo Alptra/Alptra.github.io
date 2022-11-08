@@ -83,39 +83,6 @@ input, select, textarea {
 	appearance: none;
 }
 
-./style.css
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100vw;
-}
-
-#typing-text::after {
-    content: 'Translating more than words';
-    font-size: 42px;
-    font-family: monospace;
-}
-
-#typing-text::after {
-    [...]
-    animation: write-text 10s infinite;
-}
-@keyframes write-text {
-    0%   { content: 'T'; }
-    1%   { content: 'Tr'; }
-    2%   { content: 'Tra'; }
-    3%   { content: 'Tran'; }
-    5%   { content: 'Trans'; }
-    6%   { content: 'Transl'; }
-    7%   { content: 'Transla'; }
-    9%   { content: 'Translat'; }
-    10%  { content: 'Translati'; }
-    11%  { content: 'Translatin'; }
-    12%  { content: 'Translating'; }
-    13%  { content: 'Translating '; }
-	
 /* Basic */
 
 	html {
@@ -246,6 +213,39 @@ body {
 	}
 
 /* Container */
+	./style.css
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+#typing-text::after {
+    content: 'Translating more than words';
+    font-size: 42px;
+    font-family: monospace;
+}
+
+#typing-text::after {
+    [...]
+    animation: write-text 10s infinite;
+}
+@keyframes write-text {
+    0%   { content: 'T'; }
+    1%   { content: 'Tr'; }
+    2%   { content: 'Tra'; }
+    3%   { content: 'Tran'; }
+    5%   { content: 'Trans'; }
+    6%   { content: 'Transl'; }
+    7%   { content: 'Transla'; }
+    9%   { content: 'Translat'; }
+    10%  { content: 'Translati'; }
+    11%  { content: 'Translatin'; }
+    12%  { content: 'Translating'; }
+    13%  { content: 'Translating '; }
+	
 	.conteneur {
   		position: relative;
   		overflow: hidden;
