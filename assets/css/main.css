@@ -212,8 +212,7 @@ input, select, textarea {
 		clear: both;
 	}
 
-/* Container */
-	./style.css
+./style.css
 body {
     display: flex;
     align-items: center;
@@ -245,7 +244,8 @@ body {
     11%  { content: 'Translatin'; }
     12%  { content: 'Translating'; }
     13%  { content: 'Translating '; }
-	
+
+/* Container */
 	.conteneur {
   		position: relative;
   		overflow: hidden;
