@@ -214,13 +214,6 @@ input, select, textarea {
 
 /* Container */
 
-	body {
-	padding: 10px;
-	margin: 0;
-	font-family: sans-serif;
-	background-color: #FFFFFF;
-	}
-
 	.page-header {
 		background-color: #FFFFFF;
 		border-radius: 16px;
