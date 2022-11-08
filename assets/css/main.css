@@ -214,13 +214,6 @@ input, select, textarea {
 
 /* Container */
 
-	.page-header {
-		background-color: #FFFFFF;
-		border-radius: 16px;
-		padding: 20px 20px;
-		margin-bottom: 40px;
-	}
-
 	.ml6 {
   		position: relative;
   		font-weight: 900;
