@@ -20,6 +20,12 @@
     			easing: "easeInOutQuad",
     			duration: 2250,
     			delay: (el, i) => 150 * (i+1)
+  		}).add({
+    			targets: '.ml3',
+    			opacity: 0,
+    			duration: 0,
+    			easing: "easeOutExpo",
+    			delay: 1000
   		});
 	
 	// Breakpoints.
