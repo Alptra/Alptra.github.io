@@ -214,6 +214,26 @@ input, select, textarea {
 
 /* Container */
 
+	.top {
+  		margin: 0;
+  		position: relative;
+  		width: 100%;
+  		background-color: #fff;
+  		height: 40px;
+  		opacity: 1;
+  		text-align: center;
+  		font-family: 'helvetica';
+  		font-size: 18px;
+  		font-weight: 40;
+  		color: #fff;
+	}
+
+	.title {
+  		position: absolute;
+  		top: 60%;
+  		left: 100px;
+	}
+
 	.ml6 {
   		position: relative;
   		font-weight: 900;
