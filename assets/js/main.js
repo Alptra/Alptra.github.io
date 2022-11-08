@@ -13,7 +13,7 @@
 	var textWrapper = document.querySelector('.ml3');
 	textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-	anime.timeline({loop: while})
+	anime.timeline
   		.add({
     			targets: '.ml3 .letter',
     			opacity: [0,1],
