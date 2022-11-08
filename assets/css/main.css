@@ -221,7 +221,7 @@ body {
 
 .top {
   margin: 0;
-  position: relative;
+  position: static;
   width: 100%;
   background-color: #fff;
   height: 50px;
