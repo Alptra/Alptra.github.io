@@ -236,11 +236,6 @@ input, select, textarea {
 		font-family: sans-serif;
 	}
 
-	p {
-		font-size: 16px;
-		line-height: 1.3;
-	}
-
 	.ml6 {
   		position: relative;
   		font-weight: 900;
