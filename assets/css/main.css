@@ -215,7 +215,7 @@ input, select, textarea {
 /* Container */
 
 	.page-header {
-		background-color: #fff;
+		background-color: #ffffff;
 		border-radius: 16px;
 		padding: 20px 20px;
 		margin-bottom: 40px;
@@ -223,7 +223,7 @@ input, select, textarea {
 
 	h1 {
 		margin: 0;
-		color: ;
+		color: #ffffff;
 		font-size: 30px;
 		text-align: center;
 		font-family: sans-serif;
