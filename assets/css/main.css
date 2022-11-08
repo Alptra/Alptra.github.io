@@ -219,19 +219,17 @@ input, select, textarea {
   		position: relative;
   		width: 100%;
   		background-color: #fff;
-  		height: 40px;
+  		height: 30px;
   		opacity: 1;
   		text-align: center;
   		font-family: 'helvetica';
-  		font-size: 18px;
-  		font-weight: 40;
+  		font-size: 16px;
+  		font-weight: 36;
   		color: #fff;
 	}
 
 	.title {
-  		position: absolute;
-  		top: 60%;
-  		left: 100px;
+  		position: static;
 	}
 
 	.ml6 {
