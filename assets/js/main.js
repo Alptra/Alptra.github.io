@@ -7,7 +7,7 @@
 (function($) {
 	
 $(window).scroll(function(){
-    $(".top").css("opacity", 1 - $(window).scrollTop() / 180);
+    $(".top").css("opacity", 1 - $(window).scrollTop() / 200);
   });
 
 /*win.scroll(function(){
