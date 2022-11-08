@@ -212,24 +212,6 @@ input, select, textarea {
 		clear: both;
 	}
 
-.type {
-  display:inline-flex;
-}
-.type span {
-  word-break: break-all;
-  height: 1.2em;
-  width:0%;
-  overflow: hidden;
-  animation:t 2s linear infinite alternate;
-}
-.type span:before {
-  content:" ";
-  display:inline-block;
-}
-@keyframes t{
-  90%,100% {width:100%}
-}
-
 /* Container */
 	.conteneur {
   		position: relative;
