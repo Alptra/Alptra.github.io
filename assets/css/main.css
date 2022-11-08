@@ -213,12 +213,6 @@ input, select, textarea {
 	}
 
 /* Container */
-	.fade {
-  	margin: 50px;
-  	padding: 50px;
-  	background-color: ;
-  	opacity: 1;
-	}
 	.ml6 {
   		position: relative;
   		font-weight: 900;
