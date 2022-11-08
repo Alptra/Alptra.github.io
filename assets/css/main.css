@@ -216,7 +216,7 @@ input, select, textarea {
 
 	.top {
   		margin: 0;
-  		position: relative;
+  		position: static;
   		width: 100%;
   		background-color: #fff;
   		height: 30px;
