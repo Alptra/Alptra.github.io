@@ -213,6 +213,25 @@ input, select, textarea {
 	}
 
 /* Container */
+	.page-header {
+	background-color: #FF8A5B;
+	border-radius: 16px;
+	padding: 100px 40px;
+	margin-bottom: 40px;
+}
+
+h1 {
+	margin: 0;
+	color: white;
+	font-size: 42px;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.3;
+}
 	.ml6 {
   		position: relative;
   		font-weight: 900;
