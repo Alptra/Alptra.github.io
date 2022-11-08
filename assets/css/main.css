@@ -213,6 +213,11 @@ input, select, textarea {
 	}
 
 /* Container */
+	.appear{
+  		opacity:0;
+  		position: relative;
+  		top: 100px;
+	}
 	.ml6 {
   		position: relative;
   		font-weight: 900;
