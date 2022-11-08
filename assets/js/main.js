@@ -18,7 +18,7 @@
     			targets: '.ml3 .letter',
     			opacity: [0,1],
     			easing: "easeInOutQuad",
-    			duration: 2250,
+    			duration: infinity,
     			delay: (el, i) => 150 * (i+1)
   		}).add({
     			targets: '.ml3',
