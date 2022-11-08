@@ -232,7 +232,9 @@ body {
 }
 
 .title {
-  position: static;
+  position: absolute;
+  top: 60%;
+  left: 100px;
 }
 
 /* Container */
