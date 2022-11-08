@@ -215,14 +215,14 @@ input, select, textarea {
 /* Container */
 
 	body {
-	padding: 40px;
+	padding: 10px;
 	margin: 0;
 	font-family: sans-serif;
-	background-color: #FFF3E0;
+	background-color: #FFFFFF;
 	}
 
 	.page-header {
-		background-color: #ffffff;
+		background-color: #FFFFFF;
 		border-radius: 16px;
 		padding: 20px 20px;
 		margin-bottom: 40px;
@@ -230,7 +230,7 @@ input, select, textarea {
 
 	h1 {
 		margin: 0;
-		color: #ffffff;
+		color: #FFFFFF;
 		font-size: 30px;
 		text-align: center;
 		font-family: sans-serif;
