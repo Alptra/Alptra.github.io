@@ -212,6 +212,31 @@ input, select, textarea {
 		clear: both;
 	}
 
+body {
+  margin: 0;
+  height: 1000px;
+}
+
+.top {
+  margin: 0;
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  height: 300px;
+  opacity: 1;
+  text-align: center;
+  font-family: 'helvetica';
+  font-size: 80px;
+  font-weight: 100;
+  color: ;
+}
+
+.title {
+  position: absolute;
+  top: 60%;
+  left: 100px;
+}
+
 /* Container */
 	.ml6 {
   		position: relative;
