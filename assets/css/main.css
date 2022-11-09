@@ -228,10 +228,6 @@ input, select, textarea {
   		color: ;
 	}
 
-	.title {
-  		position: static;
-	}
-
 	.ml6 {
   		position: relative;
   		font-weight: 900;
