@@ -212,6 +212,22 @@ input, select, textarea {
 		clear: both;
 	}
 
+/* Configure this in Tailwind.config.js */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 2s ease-in forwards;
+}
+
 /* Container */
 
 	.ml6 {
