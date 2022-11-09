@@ -5,23 +5,6 @@
 	Strongly Typed by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
-/* Configure this in Tailwind.config.js */
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.animate-fadeIn {
-  animation: fadeIn 1s ease-in forwards;
-}
-
 */
 
 html, body, div, span, applet, object,
@@ -233,7 +216,7 @@ input, select, textarea {
 
 	.ml6 {
   		position: relative;
-  		font-weight: 1000;
+  		font-weight: 900;
   		font-size: 3.3em;
 	}
 
