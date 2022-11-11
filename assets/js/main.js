@@ -5,6 +5,15 @@
 */
 
 (function($) {
+	
+	import { animate, scroll, ScrollOffset } from "motion";
+
+document.querySelectorAll("section > div").forEach((item) => {
+  scroll(animate(item, { opacity: [0, 1, 1, 0] }), {
+    target: item,
+    offset: [...ScrollOffset.Enter, ...ScrollOffset.Exit]
+  });
+});
 
 	const callback = function (entries) {
   entries.forEach((entry) => {
