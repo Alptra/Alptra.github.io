@@ -4,6 +4,16 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+import { animate, scroll, ScrollOffset } from "motion";
+
+document.querySelectorAll("section > div").forEach((item) => {
+  scroll(animate(item, { opacity: [0, 1, 1, 0] }), {
+    target: item,
+    offset: [...ScrollOffset.Enter, ...ScrollOffset.Exit]
+  });
+});
+
+
 (function($) {
 
 	var	$window = $(window),
