@@ -4,8 +4,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-(function($) {
-	const callback = function (entries) {
+const callback = function (entries) {
   entries.forEach((entry) => {
     console.log(entry);
 
@@ -25,6 +24,7 @@ targets.forEach(function (target) {
   observer.observe(target);
 });
 
+(function($) {
 	var	$window = $(window),
 		$body = $('body');
 
