@@ -38,7 +38,7 @@ targets.forEach(function (target) {
     			translateY: ["1.1em", 0],
     			translateZ: 0,
     			duration: 750,
-    			delay: (el, i) => 50 * i
+    			delay: (el, i) => 200 * i
   		}).add({
     			targets: '.ml6',
     			opacity: 0,
