@@ -228,9 +228,6 @@ input, select, textarea {
 		clear: both;
 	}
 
-// Reveal on scroll
-.revealOnScroll { opacity: 0; }
-
 /* Container */
 
 	.ml6 {
