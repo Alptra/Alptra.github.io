@@ -230,10 +230,6 @@ input, select, textarea {
 
 /* Container */
 
-	.fade {
-  opacity: 0;
-}
-
 	.ml6 {
   		position: relative;
   		font-weight: 900;
