@@ -4,6 +4,23 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+const paraTag = document.querySelector('h1')
+
+const paraTagInnerText = paraTag.innerText
+
+paraTag.innerHTML = ''
+
+Object.values(paraTagInnerText).forEach( (letter, i) => {
+  paraTag.innerHTML += `<span>${letter}</span>`
+});
+
+const paraGraphSpans = paraTag.querySelectorAll('h1 span');
+const wordLength = paraGraphSpans.length
+
+paraGraphSpans.forEach((span, i) => {
+  span.style.animationDelay = .20 * Math.floor(Math.random() * wordLength) +'s'
+})
+
 const callback = function (entries) {
   entries.forEach((entry) => {
     console.log(entry);
