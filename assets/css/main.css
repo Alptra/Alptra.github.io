@@ -83,6 +83,35 @@ input, select, textarea {
 	appearance: none;
 }
 
+$blurStartingPoint: 20px;
+$scaleStartingPoint: 0.8;
+$opacityStartingPoint: 0;
+
+h1{
+  font-size: 10rem;
+  text-align: center;
+  span{
+    filter: blur($blurStartingPoint);
+    transform: scale($scaleStartingPoint);
+    opacity: $opacityStartingPoint;
+    animation: 3s forwards ease animatedLetters;
+    display: inline-block;
+  }
+}
+
+@keyframes animatedLetters {
+  0%{
+    filter: blur($blurStartingPoint);
+    opacity: $opacityStartingPoint;
+    transform: scale($scaleStartingPoint);
+  }
+  100%{
+    filter: blur(0);
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 /* Configure this in Tailwind.config.js */
 
 @keyframes fadeIn {
