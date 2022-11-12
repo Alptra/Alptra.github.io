@@ -96,7 +96,7 @@ input, select, textarea {
 }
 
 .animate-fadeIn {
-  animation: fadeIn 1s ease-in forwards;
+  animation: fadeIn 0.5s ease-in forwards;
 }
 
 /* Basic */
