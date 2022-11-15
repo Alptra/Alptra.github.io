@@ -5,14 +5,24 @@
 */
 
 (function($) {
-	shots = $(".shot").fadeTo(0, 0.05);
+	const callback = function (entries) {
+  entries.forEach((entry) => {
+    console.log(entry);
 
-$('.container').scroll(function(d,h) {
-    shots.each(function(i) {
-        a = $(this).offset().top + $(this).height();
-        b = $('#portfolio').scrollTop() + $('.container').height();
-        if (a < b) $(this).fadeTo(500,1);
-    });
+    if (entry.isIntersecting) {
+      entry.target.classList.add("animate-fadeIn");
+    } else {
+      entry.target.classList.remove("animate-fadeIn");
+    }
+  });
+};
+
+const observer = new IntersectionObserver(callback);
+
+const targets = document.querySelectorAll(".js-show-on-scroll");
+targets.forEach(function (target) {
+  target.classList.add("opacity-0");
+  observer.observe(target);
 });
 	
 	var	$window = $(window),
