@@ -231,7 +231,7 @@ input, select, textarea {
 /* Container */
 
 body {
-	background: #310404; 
+	background: #310404 no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
