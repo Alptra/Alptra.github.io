@@ -101,3 +101,18 @@ targets.forEach(function (target) {
 				});
 
 })(jQuery);
+
+/*
+ * ------------------------------------------------------------------------------
+ * FOUC Fix - Flash of Unstyled Content
+ *
+ * By default, the <html> tag is hidden to prevent the flash of unstyled content.
+ * This simple fadeIn() function will allow the page to gracefully fade in once
+ * all assets are loaded. This line of code must remain at the bottom of the js
+ * assets.
+ *
+ * Source: https://gist.github.com/marchershey/139db0e8fd6f03a83578698409d333ce
+ * ------------------------------------------------------------------------------
+ */
+
+$( 'html' ).fadeIn();
