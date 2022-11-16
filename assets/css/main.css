@@ -2220,7 +2220,7 @@ input, select, textarea {
 	#main {
 		position: relative;
 		overflow: hidden;
-		background: #1D1D1F;
+		background: #fff;
 		padding: 6em 0;
 	}
 
