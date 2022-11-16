@@ -28,7 +28,71 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
-	
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+$apparition-timing: 1000ms;
+$nb-plates: 3;
+$plate-delay: $apparition-timing / $nb-plates;
+
+$checked-timing: 500ms;
+$checked-delay: 150ms;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@mixin plate-num($nb-of-plate : $nb-plates) {
+  @for $i from 1 through $nb-of-plate {
+    &--#{$i} {
+      animation-delay: ($apparition-timing / $nb-of-plate) * $i;
+    }
+  }
+  @keyframes apparition {
+    0% {
+      opacity: .2;
+      transform: translateY(50%);
+    }
+    100% {
+      opacity: 1;
+    }
+  } 
+}
+
+@keyframes checked {
+  0% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(1);
+  }
+}
+
+@keyframes menu-title-apparition {
+    0% {
+        opacity: 0;
+        // transform: translateX(-50%);
+    }
+    100% {
+        opacity: 1;
+        // transform: translateX(1);
+    }
+}
+
+@keyframes underline {
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.first-container {
+  padding: 1rem;
+}
+
 body {
     -youbkit-touch-callout: none; /* iOS Safari */
     -youbkit-user-select: none;   /* Chrome 6.0+, Safari 3.1+, Edge & Opera 15+ */
