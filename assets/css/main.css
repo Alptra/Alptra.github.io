@@ -1991,9 +1991,9 @@ input, select, textarea {
 		#header p {
 			text-transform:;
 			font-weight: 400;
-			color: #ed786a;
+			color: #888;
 			margin: 2.5em 0 0 0;
-			font-size: 1.25em;
+			font-size: 1.5em;
 			letter-spacing: 3px;
 			text-align: center;
 		}
