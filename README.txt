@@ -37,3 +37,4 @@ Credits:
 		Responsive Tools (github.com/ajlkn/responsive-tools)
 		
 <div id="content" class="col-8 col-12-medium">
+#ed786a
