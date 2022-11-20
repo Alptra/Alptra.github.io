@@ -4,10 +4,5 @@ html5up.net | Template Strongly Typed by HTML5 UP, free for personal and commerc
 Changes were made.
 
 Credits:
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+Icons:Font Awesome (fontawesome.io)
+Other:jQuery (jquery.com), Responsive Tools (github.com/ajlkn/responsive-tools)
