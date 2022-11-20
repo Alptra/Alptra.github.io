@@ -26,6 +26,13 @@ targets.forEach(function (target) {
   observer.observe(target);
 });
 	
+	
+$(".nav li").mouseover(function () {
+	    $(this).siblings().addClass("fade");
+	}).mouseout(function () {
+	    $(this).siblings().removeClass("fade");
+});
+	
 	var	$window = $(window),
 		$body = $('body');
 
@@ -72,12 +79,6 @@ targets.forEach(function (target) {
 		});
 
 	// Nav.
-
-$(".nav li").mouseover(function () {
-	    $(this).siblings().addClass("fade");
-	}).mouseout(function () {
-	    $(this).siblings().removeClass("fade");
-});
 
 		// Title Bar.
 			$(
