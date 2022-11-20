@@ -1,5 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700");
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:700);
 
 /*
 	Alptra website
@@ -29,6 +30,20 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:visited {
+    outline: medium none;
+    text-decoration: none;
+    transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+}
 
 body {
     -youbkit-touch-callout: none; /* iOS Safari */
@@ -2001,22 +2016,6 @@ input, select, textarea {
 
 /* Nav */
 
-@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:700);
-
-*, *:before, *:after {
-    -moz-box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-a, a:visited {
-    outline: medium none;
-    text-decoration: none;
-    transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -webkit-transition: all 0.4s ease 0s;
-}
-
 .nav {
     margin: 5% 0;
     text-align: center;
@@ -2438,22 +2437,6 @@ a, a:visited {
 	}
 
 /* Medium */
-
-@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:700);
-
-*, *:before, *:after {
-    -moz-box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-a, a:visited {
-    outline: medium none;
-    text-decoration: none;
-    transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -webkit-transition: all 0.4s ease 0s;
-}
 
 .nav {
     margin: 5% 0;
