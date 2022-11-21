@@ -31,12 +31,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-*, *:before, *:after {
-    -moz-box-sizing:;
-    margin: 0;
-    padding: 0;
-}
-
 a, a:visited {
     outline: medium none;
     text-decoration: none;
