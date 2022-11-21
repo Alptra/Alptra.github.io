@@ -37,10 +37,6 @@ footer, header, hgroup, menu, nav, section {
     padding: 0;
 }
 
-body {
-    background: #FFFFFF;
-}
-
 a, a:visited {
     outline: medium none;
     text-decoration: none;
