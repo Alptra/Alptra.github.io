@@ -32,7 +32,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 *, *:before, *:after {
-    -moz-box-sizing: border-box;
+    -moz-box-sizing:;
     margin: 0;
     padding: 0;
 }
