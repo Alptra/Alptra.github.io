@@ -3053,41 +3053,19 @@ label:hover {
 				width: 100%;
 			}
 		
-		/* Contact Form */
-			
-			@media (max-width: 500px) {
-  			.contact-form {
-    			margin: 0;
-    			padding-top: 1em;
-    			width: 100% !important;
-    			max-width: 100% !important;
-    			-moz-border-radius: 0px;
-    			-webkit-border-radius: 0px;
-    			border-radius: 0px;
-    			-moz-box-shadow: rgba(26, 26, 26, 0.1) 0 0px 0px 0;
-    			-webkit-box-shadow: rgba(26, 26, 26, 0.1) 0 0px 0px 0;
-    			box-shadow: rgba(26, 26, 26, 0.1) 0 0px 0px 0;
-  			}
-			}
-			@media (max-width: 500px) {
-  			.contact-form .email,
-  			.contact-form .name {
-    			width: 100% !important;
-  			}
-			}
-			@media (max-width: 500px) {
-  			.contact-form .email {
-    			border-left: none !important;
-    			border-top: 1px #e6e6e6 solid !important;
-  			}
-			}
-			@media (max-width: 500px) {
-  			.contact-form .submit .user-message {
-    			float: none !important;
-    			padding: 0 0 10px !important;
-  			}
-			}
+		/* Bouton */
 
+			input[type="bouton"],
+			input[type="submit"],
+			input[type="reset"],
+			bouton,
+			.bouton {
+				letter-spacing: 2px;
+				display: block;
+				padding: 1em 0 1em 0;
+				width: 100%;
+			}
+		
 		/* Actions */
 
 			ul.actions li {
