@@ -88,7 +88,7 @@ input, select, textarea {
 	appearance: none;
 }
 
-input, select, textarea {
+body, input, select, textarea {
   background: none;
   color: #646464;
   font-family: "Lato", Helvetica, sans-serif;
