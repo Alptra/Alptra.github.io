@@ -233,7 +233,7 @@ input, select, textarea {
 		clear: both;
 	}
 
-/* Body */
+/* Checkbox */
 
 input[type="checkbox"] + label {
   text-decoration: none;
