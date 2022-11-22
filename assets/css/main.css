@@ -1829,7 +1829,7 @@ input, select, textarea {
 			border-top: solid 2px #E5E5E5;
 		}
 
-/* Button */
+/* Bouton */
 
 	input[type="button"],
 	input[type="submit"],
@@ -2337,7 +2337,7 @@ input[type="checkbox"] + label:before {
   border-radius: 0.5em;
 }
 
-/* Boutons */
+/* Buttons */
 
 input[type="submit"],
 input[type="reset"],
