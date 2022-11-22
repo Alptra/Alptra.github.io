@@ -2263,7 +2263,7 @@ a, a:visited {
 	#footer {
 		position: relative;
 		overflow: hidden;
-		border-top: solid 2px #f0f0f0;
+		border-top: solid 2px #e5e5e5;
 		background: #f0f0f0;
 		padding: 6em 0 8em 0;
 	}
@@ -2273,7 +2273,7 @@ a, a:visited {
 		#footer form input[type="password"],
 		#footer form select,
 		#footer form textarea {
-			background: #f0f0f0;
+			background: #f7f7f7;
 		}
 
 			#footer form input[type="text"]:focus,
