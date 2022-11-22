@@ -2292,7 +2292,7 @@ a, a:visited {
 	#footer {
 		position: relative;
 		overflow: hidden;
-		border-top: solid 2px #e5e5e5;
+		border-top: solid 2px #fff;
 		background: #fff;
 		padding: 6em 0 8em 0;
 	}
