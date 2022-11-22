@@ -2062,6 +2062,10 @@ ul.actions li:last-child {
     padding: 0;
 }
 
+body {
+    background: #FFFFFF;
+}
+
 a, a:visited {
     outline: medium none;
     text-decoration: none;
