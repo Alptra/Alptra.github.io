@@ -1829,7 +1829,7 @@ input, select, textarea {
 			border-top: solid 2px #E5E5E5;
 		}
 
-/* Bouton */
+/* Button */
 
 	input[type="button"],
 	input[type="submit"],
@@ -2337,12 +2337,12 @@ input[type="checkbox"] + label:before {
   border-radius: 0.5em;
 }
 
-/* Buttons */
+/* Boutons */
 
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
-.button {
+.bouton {
   -moz-appearance: none;
   -webkit-appearance: none;
   -o-appearance: none;
@@ -2376,7 +2376,7 @@ input[type="button"],
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
-.button:hover {
+.bouton:hover {
   background-color: rgba(144, 144, 144, 0.075);
   color: #545454 !important;
 }
@@ -2384,21 +2384,21 @@ input[type="button"]:hover,
 input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active,
-.button:active {
+.bouton:active {
   background-color: rgba(144, 144, 144, 0.2);
 }
 
 input[type="submit"].icon,
 input[type="reset"].icon,
 input[type="button"].icon,
-.button.icon {
+.bouton.icon {
   padding-left: 1.35em;
 }
 
 input[type="submit"].icon:before,
 input[type="reset"].icon:before,
 input[type="button"].icon:before,
-.button.icon:before {
+.bouton.icon:before {
   margin-right: 0.5em;
 }
 
