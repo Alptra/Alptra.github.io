@@ -310,12 +310,12 @@ input, select, textarea {
 		}
 	
 	.contact-container {
-  width: 100%;
-  /*   padding-top: 20%; */
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
+  		width: 100%;
+  		/*   padding-top: 20%; */
+  		margin-left: auto;
+  		margin-right: auto;
+  		text-align: center;
+	}
 
 /* Row */
 
