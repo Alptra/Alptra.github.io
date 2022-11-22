@@ -88,6 +88,27 @@ input, select, textarea {
 	appearance: none;
 }
 
+input, select, textarea {
+  background: none;
+  color: #646464;
+  font-family: "Lato", Helvetica, sans-serif;
+  font-size: 15pt;
+  font-weight: 300;
+  line-height: 1.75em;
+}
+
+input, textarea {
+  border: none !important;
+  outline: none !important;
+  resize: none !important;
+  width: 100% !important;
+  -moz-appearance: none !important;
+  -webkit-appearance: none !important;
+  -o-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+}
+
 /* Configure this in Tailwind.config.js */
 
 @keyframes fadeIn {
