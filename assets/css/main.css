@@ -3134,28 +3134,6 @@ input[type="bouton"].icon:before,
 				ul.actions li:first-child {
 					margin-top: 0;
 				}
-
-ul {
-  list-style: disc;
-  margin: 0 0 2em 0;
-  padding-left: 1em;
-}
-
-ul.actions {
-  cursor: default;
-  list-style: none;
-  padding-left: 0;
-}
-
-ul.actions li {
-  display: inline-block;
-  padding: 0 1em 0 0;
-  vertical-align: middle;
-}
-
-ul.actions li:last-child {
-  padding-right: 0;
-}
 		
 		/* Box */
 
