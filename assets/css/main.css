@@ -1731,7 +1731,7 @@ input, select, textarea {
 	form label {
 		font-weight: 600;
 		text-transform: uppercase;
-		color: #888;
+		color: #fff;
 		display: block;
 		margin: 0 0 1em 0;
 	}
