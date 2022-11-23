@@ -3188,7 +3188,7 @@ a, a:visited {
 }
 
 .nav li {
-    display: inline-block;
+    display: inline;
 }
 
 .nav li a {
