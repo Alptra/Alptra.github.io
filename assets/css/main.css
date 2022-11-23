@@ -296,7 +296,7 @@ ul.actions li:last-child {
 	.ml6 .letter {
   		display: inline-block;
   		line-height: 1em;
-		font-size: #B0392E;
+		font-color: #B0392E;
 	}
 	.conteneur {
   		position: relative;
