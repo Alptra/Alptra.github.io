@@ -7,7 +7,7 @@
 		$from = $email; 
 		
 		// WARNING: Be sure to change this. This is the address that the email will be sent to
-		$to = 'tonytranslator@yahoo.fr'; 
+		$to = dG9ueUBhbHB0cmFuc2xhdGlvbmxhYi5jb20=; 
 		
 		$subject = "Message from ".$name." ";
 		
