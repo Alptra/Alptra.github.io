@@ -252,4 +252,8 @@ $(document).ready(function($) {
   });
 });
 	
+var encEmail = "dG9ueUBhbHB0cmFuc2xhdGlvbmxhYi5jb20=";
+const form = document.getElementById("contact");
+form.setAttribute("href", "mailto:".concat(atob(encEmail)));	
+	
 })(jQuery);
