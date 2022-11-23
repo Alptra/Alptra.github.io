@@ -110,7 +110,7 @@ $(".nav li").mouseover(function () {
 
 	// Check for valid email syntax
 function validateEmail(email) {
-  var re = /dG9ueUBhbHB0cmFuc2xhdGlvbmxhYi5jb20=/;
+  var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   return re.test(email);
 }
 
