@@ -1,0 +1,172 @@
+<?php
+
+
+if($_POST["message"]) {
+
+
+mail("dG9ueUBhbHB0cmFuc2xhdGlvbmxhYi5jb20=", "Here is the subject line",
+
+
+$_POST["insert your message here"]. "From: an@email.address");
+
+
+}
+
+
+?>
+
+<!DOCTYPE HTML>
+<!--
+	Alptra website
+	(html5up.net | Template Strongly Typed by HTML5 UP, free for personal and commercial use under the CCA 3.0 license (html5up.net/license). @ajlkn | aj@lkn.io | AJ.
+	Changes were made.)
+-->
+<html>
+	<head>
+		<SCRIPT LANGUAGE="JavaScript"> 
+		<!-- Disable 
+		function disableselect(e){ 
+		return false 
+		} 
+
+		function reEnable(){ 
+		return true 
+		} 
+
+		//if IE4+ 
+		document.onselectstart=new Function ("return false") 
+		document.oncontextmenu=new Function ("return false") 
+		//if NS6 
+		if (window.sidebar){ 
+		document.onmousedown=disableselect 
+		document.onclick=reEnable 
+		} 
+		//--> 
+		</script> 
+		<title>Alptra</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/pic13.png">
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header">
+					<div class="container">
+						<!-- Logo -->
+							<h1 id="logo"><a href="index.html">Alptra</a></h1>
+							<p class="ml6">
+  								<span class="text-wrapper">
+    									<span class="letters">Translating more than words</span>
+  								</span>
+							</p>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+									
+						<!-- Nav -->
+							<nav id="nav">
+								<ul role="navigation" class="nav">
+  									<li><a title="Home" href="https://alptra.github.io/index.html">Home</a></li>
+									<li><a title="Projects" href="https://alptra.github.io/projects.html"">Projects</a></li>
+									<li><a title="Disclaimer" href="https://alptra.github.io/Legal-Notice.html">Disclaimer</a></li>
+									<li><a title="Cafe" href="https://alptra.github.io/right-sidebar.html">Cafe</a></li>
+									<li><a title="Contact" href="https://alptra.github.io/contact.html">Contact</a></li>
+								</ul>
+							</nav>
+
+					</div>
+				</section>							
+			
+			<!-- Main -->
+				<section id="main">
+					<div class="container">
+						<div class="row">
+										
+							<!-- Content -->
+										
+									<!-- Post -->
+										<article class="box post">
+											<span class="image featured"><img src="images/pic14.jpg" alt="" style="border-radius: 2%"/></span>
+										</article>										
+				<!-- 
+				Popup Contact Form based on:
+				https://codepen.io/jhnwlsn/pen/vulgn by John Wilson
+				https://codyhouse.co/gem/simple-confirmation-popup/
+				-->											
+				<div class="contact-container">
+  					<h2>Feel free to get in touch.</h2>
+  					<ul class="actions">
+    						<li><a href="#" id="contact" class="bouton big">Contact Us</a></li>
+ 	 				</ul>
+				</div>
+
+					<div class="cd-popup contact" role="alert">
+  						<form name="contactform" id="contactform" class="contact-form">
+    							<div class="cd-popup-container" style="">
+      								<p style="">
+        								<a href="" class="cd-popup-close cd-close-bouton">
+          									<i class="fa fa-times" style="pointer-events:none;"></i>
+        								</a>
+      								</p>
+
+      								<div class="name">
+        							<label for="name">Name</label>
+        								<input type="text" id="name" name="name" />
+      								</div>
+      								<div class="email">
+        								<label for="email">Email</label>
+        								<input type="text" id="email" name="email" />
+      								</div>
+      								<div class="message">
+        								<label for="message">Message</label>
+        								<textarea name="message" id="message" name="message"></textarea>
+      								</div>
+      								<br>
+      								<div style="text-align:left">
+        								<input type="checkbox" id="human" name="human" />
+        								<label for="human">I am a human and not a robot.</label>
+      								</div>
+      								<br>
+      								<div class="submit">
+        								<p class="user-message" id="contactblurb"> Questions, suggestions, and general comments are all welcome!</p>
+        								<input type="submit" name="submit" id="submit" value="Send" />
+      								</div>
+    							</div>
+  						</form>
+					</div>		
+
+					<div class="cd-popup notification" role="alert">
+  						<div class="cd-popup-container">
+    							<a href="" class="cd-popup-close cd-close-bouton"><i class="fa fa-times" style="pointer-events:none;"></i></a>
+    							<p>
+      								<h3 id="notification-text">Thanks for getting in touch!</h3>
+    							</p>
+  						</div>
+					</div>
+					</div>
+    					</div>
+				</section>
+
+			<!-- Footer -->
+				<section id="footer">
+					<div id="copyright" class="container">
+						<ul class="links">
+							<li>&copy; Alptra. All rights reserved.<a href="https://alptra.github.io/Legal-Notice.html"> Legal Notice</a></li>
+						</ul>
+					</div>
+				</section>
+
+		</div>										
+								
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>		
