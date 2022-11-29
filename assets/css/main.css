@@ -4,8 +4,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
-@import "bourbon";
-$hh: 70px;
 
 /*
 	Alptra website
@@ -147,55 +145,6 @@ ul.actions li:last-child {
 
 .animate-fadeIn {
   animation: fadeIn 1s ease-in forwards;
-}
-
-#delete-cookie{
-  margin-top: 200px;
-}
-
-main{
-  text-align: center;
-}
-
-.cookie-bar{
-  position: fixed;
-  width: 100%;
-  height: 70px;
-  background: #DC8574;
-  color: white;
-  margin-top: -$hh;
-  line-height: $hh;
-  font-family: arial;
-  font-size: 1rem;
-  text-align: center;
-  @include transition(all .4s);
-  
-  &--active{
-    margin-top: 0;
-  }
-  
-  
-  button{
-    outline: 0;
-    border: 0;
-    background: transparent;
-  }
-  
-  button, a{
-    padding: 5px;
-    margin: 0;
-    color: #DC8574;
-    background: white;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 14px;
-    margin-left: 10px;
-    opacity: 0.9;
-    
-    &:hover{
-      opacity: 1;
-    }
-  }
 }
 
 /* Basic */
