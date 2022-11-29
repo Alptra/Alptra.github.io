@@ -149,6 +149,14 @@ ul.actions li:last-child {
   animation: fadeIn 1s ease-in forwards;
 }
 
+#delete-cookie{
+  margin-top: 200px;
+}
+
+main{
+  text-align: center;
+}
+
 .cookie-bar{
   position: fixed;
   width: 100%;
