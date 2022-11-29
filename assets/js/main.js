@@ -36,6 +36,12 @@ $(".nav li").mouseover(function () {
 	var	$window = $(window),
 		$body = $('body');
 	
+$("button.close").click(function(){
+
+$(".bakedCookies").css("bottom","-100px");
+ 
+})
+	
 	// Wrap every letter in a span
 	var textWrapper = document.querySelector('.ml6 .letters');
 	textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
