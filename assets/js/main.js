@@ -36,6 +36,39 @@ $(".nav li").mouseover(function () {
 	var	$window = $(window),
 		$body = $('body');
 	
+	// GET/SET Cookie
+function setCookie(cname, cvalue, exdays) {
+	var d = new Date();
+	d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+	var expires = "expires=" + d.toGMTString();
+	document.cookie = cname + "=" + cvalue + "; " + expires;
+}
+
+function getCookie(cname) {
+	var name = cname + "=";
+	var ca = document.cookie.split(';');
+	for (var i = 0; i < ca.length; i++) {
+		var c = ca[i].trim();
+		if (c.indexOf(name) === 0) return c.substring(name.length, c.length);
+	}
+	return "";
+}
+
+// EU Cookie Agreement
+var cContent = $('.cookie-disclaimer'),
+		cName = "COOKIES_ACCEPTED";
+
+if (getCookie(cName) !== "true"){
+	cContent.fadeIn();
+	console.log(getCookie(cName));            
+}
+
+$('.accept-cookie').click(function () {
+	setCookie(cName, "true", 30);
+	console.log("cookie accepted!");
+	cContent.fadeOut("fast");
+});
+	
 	// Wrap every letter in a span
 	var textWrapper = document.querySelector('.ml6 .letters');
 	textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
