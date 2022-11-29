@@ -131,43 +131,6 @@ ul.actions li:last-child {
   padding-right: 0;
 }
 
-$blue: #4269A5;
-$liteblue: #7B96C0;
-$gap: 1rem;
-$max: 1200px;
-
-.cookie-disclaimer{
-	position:fixed;
-	z-index:999;
-	left:0;
-	bottom:0;
-	width:100%; 
-	background: $liteblue;
-	font-size:14px;
-	color:white;
-	display:none;
-	padding:$gap 0;
-	
-	.btn{
-		background:none; 
-		color:white;
-		border:1px solid white;
-		border-radius:0;
-		font-size:inherit;
-		
-		&:hover{
-			background:$liteblue;
-			border-color:$liteblue;
-			color:$blue;
-		}
-	}
-	
-	a{ 
-		text-decoration:underline; 
-		color:white;
-	}
-}
-
 /* Configure this in Tailwind.config.js */
 
 @keyframes fadeIn {
