@@ -278,6 +278,49 @@ ul.actions li:last-child {
 
 /* Container */
 
+	*{margin:0;padding:0;} /* brower reset */
+
+.container {margin:0 auto; width:1600px;}
+
+.bakedCookies {
+background-color:#333; 
+display:block;
+position:fixed;
+bottom:;
+width:100%;
+color:#fff;
+margin:0;
+  transition:bottom 0.8s ease-in;
+}
+
+.cookieDough {width:960px; margin:0 auto; font-family:'Palatino Linotype','Palatino LT STD', ,'lato',;
+font-size: 14px;
+.cookieDough a {color::#​fff;}
+
+button.close {
+padding: 0;
+margin:0 20px 5px 0;
+cursor: pointer;
+background: 0 0;
+border: 0;
+-webkit-appearance: none;
+}
+.close {
+float: right;
+font-size: 21px;
+font-weight: 700;
+line-height: 1;
+color: #fff;
+text-shadow: 0 1px 0 #fff;
+opacity: .5;
+}
+.close:hover, .close:focus {
+color: #fff;
+text-decoration: none;
+cursor: pointer;
+opacity: 1;
+}
+
 	.ml6 {
   		position: relative;
   		font-weight: 900;
