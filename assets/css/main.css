@@ -2035,7 +2035,7 @@ ul.actions li:last-child {
 		#header h1 {
 			font-family: 'Arvo';
 			font-weight: 700;
-			color: #424245;
+			color: #1D1D1F;
 			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
 			font-size: 3em;
 			letter-spacing: 13px;
@@ -2048,7 +2048,7 @@ ul.actions li:last-child {
 		#header p {
 			text-transform: uppercase;
 			font-weight: 700;
-			color: #1D1D1F;
+			color: #86868B;
 			margin: 2.5em 0 0 0;
 			font-size: 1.15em;
 			letter-spacing: 3px;
