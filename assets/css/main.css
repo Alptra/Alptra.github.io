@@ -223,12 +223,12 @@ ul.actions li:last-child {
 		}
 
 		a:hover {
-			color: #ed786a;
+			color:;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
 			a:hover strong {
-				color: #ed786a;
+				color:;
 			}
 
 	strong, b {
