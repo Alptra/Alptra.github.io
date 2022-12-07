@@ -262,8 +262,8 @@ function cookie(name) {
 }
 
 
-/* popup button hanler */
-on('.cookie-popup button', 'click', () => {
+/* popup boutton hanler */
+on('.cookie-popup boutton', 'click', () => {
   el('.cookie-popup').classList.add('cookie-popup--accepted');
   document.cookie = `cookie-accepted=true`
 });
@@ -275,7 +275,7 @@ if (cookie('cookie-accepted') !== "true") {
 
 
 
-/* page buttons handlers */
+/* page bouttons handlers */
 
 function _reset() {
   document.cookie = 'cookie-accepted=false'; 
