@@ -276,14 +276,13 @@ ul.actions li:last-child {
 		clear: both;
 	}
 
-/* PAGE STYLES */
+/* COOKIE POPUP STYLES */
+
 :root { font-size: 16px; }
 * { box-sizing: border-box; }
 html {
   font-family: 'Montserrat', sans-serif;
 }
-
-/* COOKIE POPUP STYLES */
 
 .cookie-popup {
   
