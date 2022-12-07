@@ -2113,12 +2113,11 @@ html {
 			}
 
 		#header p {
-			text-transform:;
-			font-family: 'Futura';			
-			font-weight: 400;
+			text-transform:;			
+			font-weight: 700;
 			color: #1D1D1F;
 			margin: 2.5em 0 0 0;
-			font-size: 1.15em;
+			font-size: 1.50em;
 			letter-spacing: 3px;
 			text-align: center;
 		}
