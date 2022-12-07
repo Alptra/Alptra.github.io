@@ -324,7 +324,7 @@ html {
   flex: 1;
   text-align: right;
 }
-.cookie-popup-actions button {
+.cookie-popup-actions boutton {
   color: orange;
   border: none;
   background: none;
@@ -337,7 +337,7 @@ html {
   padding: 0;
   cursor: pointer;
 }
-.cookie-popup-actions button:hover {
+.cookie-popup-actions boutton:hover {
   text-decoration: underline;
 }
 
