@@ -2113,7 +2113,8 @@ html {
 			}
 
 		#header p {
-			text-transform:;			
+			text-transform:;
+		font-family: 'Neo Sans';			
 			font-weight: 900;
 			color: #1D1D1F;
 			margin: 2.5em 0 0 0;
