@@ -2102,7 +2102,7 @@ html {
 		#header h1 {
 			font-family: 'Arvo';			
 			font-weight: 900;
-			color: #1D1D1F;
+			color: #B5A265;
 			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
 			font-size: 3em;
 			letter-spacing: 13px;
@@ -2161,7 +2161,7 @@ a, a:visited {
 }
 
 .nav li a:hover, .nav li a:active {
-    color: #B0392E;
+    color: #1D1D1F;
     text-decoration: none;
 }
 
