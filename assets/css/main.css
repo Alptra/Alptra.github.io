@@ -2102,7 +2102,7 @@ html {
 		#header h1 {
 			font-family: 'Arvo';			
 			font-weight: 900;
-			color: #B5A265;
+			color: #1D1D1F;
 			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
 			font-size: 3em;
 			letter-spacing: 13px;
@@ -2113,7 +2113,8 @@ html {
 			}
 
 		#header p {
-			text-transform:;			
+			text-transform:;
+			font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
 			font-weight: 400;
 			color: #1D1D1F;
 			margin: 2.5em 0 0 0;
@@ -2157,11 +2158,11 @@ a, a:visited {
     padding: 5px 15px;
     text-transform: uppercase;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
-    color: #1D1D1F;  
+    color: #86868B;  
 }
 
 .nav li a:hover, .nav li a:active {
-    color: #B5A265;
+    color: #B0392E;
     text-decoration: none;
 }
 
